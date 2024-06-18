@@ -1,0 +1,163 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.w-layout-hflex {
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.section {
+  background-color: #f4d04e;
+  height: 960px;
+  padding-top: 219px;
+  padding-bottom: 219px;
+  font-family: Figtree, sans-serif;
+  font-weight: 800;
+  line-height: 21px;
+}
+
+.container {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 20px;
+  max-width: 384px;
+  height: 585px;
+  padding: 24px;
+  box-shadow: 8px 8px #000;
+}
+
+.div-block {
+  max-width: 336px;
+  height: 194px;
+  margin-top: 24px;
+}
+
+.heading {
+  color: #111;
+  text-align: center;
+  background-color: #f4d04e;
+  justify-content: center;
+  align-items: center;
+  max-width: 82px;
+  height: 29px;
+  font-family: Figtree, sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+  display: flex;
+}
+
+.heading-2 {
+  font-size: 14px;
+}
+
+.heading-3 {
+  font-size: 24px;
+}
+
+.heading-3:hover {
+  color: #f4d04e;
+}
+
+.paragraph {
+  color: #7f7f7f;
+  font-family: Figtree, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.body {
+  background-color: #111;
+}
+
+.text-block {
+  margin-top: 22px;
+  margin-left: 12px;
+}
+
+.heading-4 {
+  font-family: Figtree, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+@media screen and (max-width: 991px) {
+  .section {
+    height: 900px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    height: 900px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section {
+    height: 940px;
+    padding: 156px 24px;
+  }
+
+  .container {
+    max-width: 279px;
+    height: 453px;
+  }
+
+  .heading {
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .heading-3 {
+    color: #111;
+    margin-top: 0;
+    font-size: 17px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .text-block {
+    color: #111;
+  }
+
+  .heading-4 {
+    color: #111;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+
